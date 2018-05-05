@@ -19,6 +19,7 @@ setup(
         'numpy',
         'opencv-contrib-python',
         'pandas',
+        'pillow',
         'scikit-learn',
         'scipy',
         'setuptools',
@@ -27,7 +28,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'app=viech.app:main'
+            'viech=viech.app:main'
         ]
     }
 )
