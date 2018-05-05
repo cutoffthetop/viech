@@ -1,0 +1,14 @@
+.cache
+.coverage
+.eggs
+.pytest_cache
+*.pyc
+*.pyo
+bin
+build
+dist
+include
+lib
+share
+pip-selfcheck.json
+pyvenv.cfg
